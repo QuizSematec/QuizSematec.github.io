@@ -1,1 +1,0 @@
-# QuizSematec.github.io
