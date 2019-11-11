@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url("background-whatsapp-7.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px 800px;
+}
+
+#heading{
+    position: absolute;
+    left: 17%;
+    width: 1000px;
+    background: #673ab7;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+#text{
+    text-align: center;
+    color: #ffffff;
+
+
+}
+
+#quiz{
+   
+    height: 400px;
+    width: 60%;
+    position: absolute;
+    left:20%;
+    top: 30%;
+    transform: translateX(-50) translateY(-50);
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    
+   
+
+}
+
+#question{
+padding: 20px;
+   font-size: 22px;
+   background: #673ab7;
+   border-radius: 10px;
+   margin: 10px 0 10px 0;
+   color: #ffffff;
+}
+
+.option{
+    width: 470px;
+    display: inline-block;
+    padding: 10px 0 10px 0;
+    background: #607d8b;
+    margin: 10px 0 10px 10px;
+    padding: 10px 0 10px 0;
+    color: #ffffff;
+    border-radius: 8px;
+
+}
+
+
+#next{
+   background-color: #ff5722;
+   width: 20%;
+   height: 30px;
+   cursor: pointer;
+   padding: 10px 10px;
+   float: right;
+   border-radius: 8px;
+   color: #ffffff;
+   font-family: 'Roboto', sans-serif;
+   margin-left: 15px;
+   bottom: 0;
+
+}
+
+#quit{
+    background-color: #ff5722;
+    width: 20%;
+    height: 30px;
+    cursor: pointer;
+    padding: 10px 10px;
+    float: right;
+    border-radius: 8px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+  
+}
+
+#result{
+    font-size:100px;
+	 text-align: center;
+    	 height: 100px;
+    	width: 60%;
+    	position: absolute;
+    	left:20%;
+    	top: 30%;
+    	transform: translateX(-50) translateY(-50);
+		background: white;
+        padding: 20px;
+        border-radius: 8px;
+		
+	
+}
+
